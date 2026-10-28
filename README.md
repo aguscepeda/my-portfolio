@@ -22,7 +22,7 @@
 
 Página web de presentación personal. Reúne mis habilidades técnicas, proyectos académicos, formación, experiencia laboral y datos personales en un solo lugar, pensada para compartir con empleadores.
 
-**Online:** https://aguscepeda.github.io/myportfolio/
+**Online:** https://aguscepeda.github.io/my-portfolio/
 
 ## Características
 
