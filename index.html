@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Agustin Cepeda</title>
+  <meta name="description" content="Portfolio de Agustin Cepeda, desarrollador junior de Bahía Blanca. Java, Python, TypeScript, React, SQL y PostgreSQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#inicio"><i></i>agustin.cepeda</a>
+    <nav aria-label="Secciones">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a href="#datos">Datos personales</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero" id="inicio">
+      <div>
+        <p class="eyebrow">Desarrollador Junior · Bahía Blanca, Argentina</p>
+        <h1>Agustin <span>Cepeda</span></h1>
+        <p class="lead">Estudio la Tecnicatura en Programación en la UTN y vengo de tres años de Ingeniería en Sistemas en la UNS. Programo en Java, Python y TypeScript, con bases de datos SQL y APIs probadas con tests. Busco mi primer trabajo en la industria.</p>
+        <div class="cta">
+          <a class="btn primary" href="#habilidades">Ver habilidades</a>
+          <a class="btn ghost" href="https://github.com/aguscepeda" target="_blank" rel="noopener">GitHub: aguscepeda</a>
+        </div>
+        <div class="chips">
+          <span class="pill" style="--k:var(--c1)">Java</span>
+          <span class="pill" style="--k:var(--c3)">Python</span>
+          <span class="pill" style="--k:var(--c5)">TypeScript</span>
+          <span class="pill" style="--k:var(--c2)">React</span>
+          <span class="pill" style="--k:var(--c4)">PostgreSQL</span>
+          <span class="pill" style="--k:var(--c1)">Node.js</span>
+          <span class="pill" style="--k:var(--c5)">Docker</span>
+        </div>
+      </div>
+      <div class="code reveal" aria-label="Resumen en formato código">
+        <div class="bar"><b style="background:var(--c4)"></b><b style="background:var(--c3)"></b><b style="background:var(--c1)"></b><span>agustin.ts</span></div>
+<pre><span class="k">const</span> <span class="p">agustin</span> = {
+  <span class="p">rol</span>: <span class="s">"Desarrollador Junior"</span>,
+  <span class="p">estudia</span>: <span class="s">"Tec. en Programación (UTN)"</span>,
+  <span class="p">lenguajes</span>: [<span class="s">"Java"</span>, <span class="s">"Python"</span>,
+    <span class="s">"TypeScript"</span>, <span class="s">"JavaScript"</span>],
+  <span class="p">datos</span>: [<span class="s">"SQL"</span>, <span class="s">"PostgreSQL"</span>],
+  <span class="p">ingles</span>: <span class="s">"avanzado"</span>,
+  <span class="p">disponibilidad</span>: <span class="s">"jornada completa"</span>,
+  <span class="p">buscando</span>: <span class="n">true</span>,
+};</pre>
+      </div>
+    </div>
+
+    <section id="sobre-mi">
+      <div class="head reveal"><span class="tag">// sobre mí</span><h2>Aprendo rápido y me gusta que las cosas funcionen</h2></div>
+      <div class="about">
+        <div class="panel reveal">
+          <p>Soy estudiante del último cuatrimestre de la Tecnicatura Universitaria en Programación de la UTN. Antes cursé tres años de Ingeniería en Sistemas en la Universidad Nacional del Sur, donde reforcé la base en programación y bases de datos.</p>
+          <p>En la facultad trabajé en equipo, armé APIs con TypeScript y Express y las probé con Vitest, Supertest y Playwright. Escribo tests antes que código cuando la consigna lo pide (TDD) y uso Git y GitHub para colaborar.</p>
+          <p>Trabajo desde enero de 2025 atendiendo público y manejando caja en un kiosco. Esa experiencia me dio responsabilidad, trato con personas y manejo de dinero a diario.</p>
+        </div>
+        <div class="panel facts reveal">
+          <div class="fact" style="--k:var(--c1)"><strong>3</strong><span>años de Ingeniería en Sistemas (UNS)</span></div>
+          <div class="fact" style="--k:var(--c2)"><strong>10+</strong><span>tecnologías en mi stack</span></div>
+          <div class="fact" style="--k:var(--c3)"><strong>EN</strong><span>inglés avanzado</span></div>
+          <div class="fact" style="--k:var(--c4)"><strong>FT</strong><span>disponible a jornada completa</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="head reveal"><span class="tag">// habilidades</span><h2>Mi stack técnico</h2></div>
+      <div class="skills">
+        <article class="panel skill reveal" style="--k:var(--c1)">
+          <h3>Lenguajes</h3>
+          <p>Lo que uso para resolver problemas.</p>
+          <ul><li>Java</li><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>SQL</li></ul>
+        </article>
+        <article class="panel skill reveal" style="--k:var(--c2)">
+          <h3>Frontend</h3>
+          <p>Interfaces con componentes.</p>
+          <ul><li>React</li><li>TypeScript</li><li>JavaScript</li></ul>
+        </article>
+        <article class="panel skill reveal" style="--k:var(--c5)">
+          <h3>Backend</h3>
+          <p>APIs REST y lógica de negocio.</p>
+          <ul><li>Node.js</li><li>Express</li><li>Java</li><li>Python</li><li>Postman</li></ul>
+        </article>
+        <article class="panel skill reveal" style="--k:var(--c4)">
+          <h3>Bases de datos</h3>
+          <p>Modelado y consultas.</p>
+          <ul><li>SQL</li><li>PostgreSQL</li><li>Bases de datos</li></ul>
+        </article>
+        <article class="panel skill reveal" style="--k:var(--c3)">
+          <h3>Testing</h3>
+          <p>Código probado, con TDD.</p>
+          <ul><li>Vitest</li><li>Supertest</li><li>Playwright</li><li>TDD</li></ul>
+        </article>
+        <article class="panel skill reveal" style="--k:var(--c1)">
+          <h3>Herramientas</h3>
+          <p>Para entregar y colaborar.</p>
+          <ul><li>Git</li><li>GitHub</li><li>Docker</li><li>Postman</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="head reveal"><span class="tag">// proyectos</span><h2>Trabajos académicos</h2></div>
+      <div class="projects">
+        <article class="panel proj reveal" style="--k:var(--c2)">
+          <small>Trabajo grupal · 5 integrantes</small>
+          <h3>Cafetería Origen</h3>
+          <p>API REST para una cafetería. Me encargué del modelo de productos y trabajé con ramas de Git por integrante.</p>
+          <div class="chips"><span class="pill" style="--k:var(--c5)">TypeScript</span><span class="pill" style="--k:var(--c1)">Express</span><span class="pill" style="--k:var(--c3)">Vitest</span><span class="pill" style="--k:var(--c4)">Git</span></div>
+        </article>
+        <article class="panel proj reveal" style="--k:var(--c3)">
+          <small>Práctico de testing</small>
+          <h3>Notes API</h3>
+          <p>API de notas desarrollada con TDD, con tests unitarios, de integración y de punta a punta.</p>
+          <div class="chips"><span class="pill" style="--k:var(--c5)">TypeScript</span><span class="pill" style="--k:var(--c3)">Vitest</span><span class="pill" style="--k:var(--c1)">Supertest</span><span class="pill" style="--k:var(--c2)">Playwright</span></div>
+        </article>
+        <article class="panel proj reveal" style="--k:var(--c1)">
+          <small>Prototipo universitario</small>
+          <h3>Gym Manager</h3>
+          <p>Prototipo de gestión de gimnasio donde las personas se anotan a clases por horario antes de ir. Incluye frontend y backend.</p>
+          <div class="chips"><span class="pill" style="--k:var(--c2)">Frontend</span><span class="pill" style="--k:var(--c1)">Backend</span><span class="pill" style="--k:var(--c4)">Requerimientos</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <div class="head reveal"><span class="tag">// formación y experiencia</span><h2>Dónde aprendí y trabajé</h2></div>
+      <div class="timeline">
+        <div class="panel entry reveal" style="--k:var(--c2)">
+          <time>Cursando · último cuatrimestre</time>
+          <div><h3>Tecnicatura Universitaria en Programación</h3><p>Universidad Tecnológica Nacional (UTN).</p></div>
+        </div>
+        <div class="panel entry reveal" style="--k:var(--c1)">
+          <time>3 años cursados</time>
+          <div><h3>Ingeniería en Sistemas</h3><p>Universidad Nacional del Sur (UNS), Bahía Blanca.</p></div>
+        </div>
+        <div class="panel entry reveal" style="--k:var(--c3)">
+          <time>Enero 2025 · actualidad</time>
+          <div><h3>Kiosco en Okay Shopping</h3><p>Atención al cliente, cobros y caja, y reposición de mercadería.</p></div>
+        </div>
+        <div class="panel entry reveal" style="--k:var(--c4)">
+          <time>Secundario</time>
+          <div><h3>Colegio Claret</h3><p>Bahía Blanca, Buenos Aires.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="datos">
+      <div class="head reveal"><span class="tag">// datos personales</span><h2>Ficha personal</h2></div>
+      <div class="panel reveal" style="padding:0">
+        <dl class="data">
+          <div style="--k:var(--c1)"><dt>Nombre</dt><dd>Agustin Cepeda</dd></div>
+          <div style="--k:var(--c2)"><dt>Puesto</dt><dd>Desarrollador Junior</dd></div>
+          <div style="--k:var(--c5)"><dt>Ubicación</dt><dd>Bahía Blanca, Buenos Aires, Argentina</dd></div>
+          <div style="--k:var(--c3)"><dt>Idiomas</dt><dd>Inglés avanzado</dd></div>
+          <div style="--k:var(--c4)"><dt>Disponibilidad</dt><dd>Jornada completa</dd></div>
+          <div style="--k:var(--c1)"><dt>Busco</dt><dd>Primer trabajo en la industria, abierto a cualquier área</dd></div>
+          <div style="--k:var(--c2)"><dt>Estudios</dt><dd>Tec. Universitaria en Programación (UTN)</dd></div>
+          <div style="--k:var(--c5)"><dt>GitHub</dt><dd><a href="https://github.com/aguscepeda" target="_blank" rel="noopener">github.com/aguscepeda</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <h2 class="reveal">Trabajemos juntos</h2>
+      <p class="reveal">Estoy disponible para sumarme a un equipo a jornada completa. Mirá mi código en GitHub.</p>
+      <div class="cta reveal">
+        <a class="btn primary" href="https://github.com/aguscepeda" target="_blank" rel="noopener">Ver mi GitHub</a>
+        <a class="btn ghost" href="#inicio">Volver arriba</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>© 2026 Agustin Cepeda · Bahía Blanca, Argentina</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
